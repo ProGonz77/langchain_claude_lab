@@ -1,0 +1,207 @@
+==============================================================
+          CS 450: INTRODUCTION TO ARTIFICIAL INTELLIGENCE
+                        Course Syllabus
+==============================================================
+
+Department:     Computer Science
+Credits:        3 units
+Semester:       Fall 2026
+Meeting Times:  Tuesdays and Thursdays, 10:00 - 11:30 AM
+Location:       Engineering Building, Room 204
+Instructor:     Dr. A. Reyes (areyes@university.edu)
+Office Hours:   Wednesdays 2:00 - 4:00 PM, or by appointment
+Prerequisites:  Data Structures and Algorithms; Discrete Math;
+                introductory Probability (Python experience expected)
+
+
+--------------------------------------------------------------
+1. COURSE DESCRIPTION
+--------------------------------------------------------------
+This course introduces the foundational ideas, techniques, and
+applications of Artificial Intelligence (AI). Students will study
+how machines can search, reason, represent knowledge, handle
+uncertainty, and learn from data. The course covers both classical
+AI (search, logic, planning) and modern approaches (machine
+learning, neural networks, and generative models), with attention
+to the ethical and societal impact of AI systems.
+
+
+--------------------------------------------------------------
+2. LEARNING OBJECTIVES
+--------------------------------------------------------------
+By the end of this course, students will be able to:
+
+  1. Explain the history, goals, and major subfields of AI.
+  2. Implement and analyze uninformed and informed search
+     algorithms, including A*.
+  3. Formulate problems as constraint satisfaction problems and
+     adversarial games.
+  4. Represent knowledge using propositional and first-order logic.
+  5. Apply probabilistic reasoning, including Bayesian networks
+     and Markov models.
+  6. Build and evaluate supervised and unsupervised machine
+     learning models.
+  7. Describe how neural networks and large language models work.
+  8. Discuss the ethical, legal, and social implications of AI,
+     including bias, privacy, safety, and accountability.
+
+
+--------------------------------------------------------------
+3. REQUIRED AND RECOMMENDED MATERIALS
+--------------------------------------------------------------
+Required Textbook:
+  Russell, S. and Norvig, P. "Artificial Intelligence: A Modern
+  Approach," 4th Edition. Pearson.
+
+Recommended:
+  Goodfellow, I., Bengio, Y., and Courville, A. "Deep Learning."
+  Sutton, R. and Barto, A. "Reinforcement Learning: An
+  Introduction."
+
+Software:
+  Python 3.10+, NumPy, scikit-learn, PyTorch, Jupyter Notebook.
+  All assignments will be submitted through the course website.
+
+
+--------------------------------------------------------------
+4. WEEKLY SCHEDULE
+--------------------------------------------------------------
+Week 1   Introduction to AI
+         History, definitions, intelligent agents, environments.
+         Reading: Chapters 1-2
+
+Week 2   Uninformed Search
+         BFS, DFS, uniform-cost search, iterative deepening.
+         Reading: Chapter 3
+
+Week 3   Informed Search
+         Heuristics, greedy best-first search, A*, admissibility.
+         Reading: Chapter 3
+         ** Assignment 1 due: Search Algorithms (Pathfinding) **
+
+Week 4   Local Search and Optimization
+         Hill climbing, simulated annealing, genetic algorithms.
+         Reading: Chapter 4
+
+Week 5   Adversarial Search and Games
+         Minimax, alpha-beta pruning, Monte Carlo tree search.
+         Reading: Chapter 5
+
+Week 6   Constraint Satisfaction Problems
+         Backtracking, arc consistency, constraint propagation.
+         Reading: Chapter 6
+         ** Assignment 2 due: Game-Playing Agent **
+
+Week 7   Logical Agents
+         Propositional logic, inference, resolution, SAT.
+         Reading: Chapters 7-8
+
+Week 8   MIDTERM EXAM (Weeks 1-7)
+         First-order logic and knowledge representation.
+
+Week 9   Probabilistic Reasoning
+         Bayes' rule, Bayesian networks, inference methods.
+         Reading: Chapters 12-13
+
+Week 10  Reasoning Over Time
+         Hidden Markov models, Kalman filters, decision-making
+         under uncertainty, Markov decision processes.
+         Reading: Chapters 14, 16-17
+         ** Assignment 3 due: Bayesian Network Inference **
+
+Week 11  Machine Learning Fundamentals
+         Supervised learning, decision trees, regression,
+         overfitting, cross-validation.
+         Reading: Chapter 19
+
+Week 12  Neural Networks and Deep Learning
+         Perceptrons, backpropagation, CNNs, optimization.
+         Reading: Chapter 21
+
+Week 13  Reinforcement Learning
+         Q-learning, policy gradients, exploration vs.
+         exploitation.
+         Reading: Chapter 22
+         ** Assignment 4 due: Neural Network Classifier **
+
+Week 14  Natural Language Processing and Generative AI
+         Transformers, large language models, prompting,
+         limitations such as hallucination.
+         Reading: Chapters 23-24
+
+Week 15  AI Ethics, Safety, and Society
+         Fairness, bias, privacy, explainability, regulation,
+         and the future of work.
+         Reading: Chapter 27
+         ** Final Project presentations **
+
+Finals   FINAL EXAM (Comprehensive) - date set by Registrar
+
+
+--------------------------------------------------------------
+5. GRADING
+--------------------------------------------------------------
+  Assignments (4 programming projects)     30%
+  Midterm Exam                             20%
+  Final Exam                               25%
+  Final Project (team of 2-3)              20%
+  Participation and Quizzes                 5%
+                                          ------
+  Total                                   100%
+
+Grading Scale:
+  A  93-100    A-  90-92
+  B+ 87-89     B   83-86    B-  80-82
+  C+ 77-79     C   73-76    C-  70-72
+  D  60-69     F   below 60
+
+
+--------------------------------------------------------------
+6. COURSE POLICIES
+--------------------------------------------------------------
+Late Work:
+  Assignments lose 10% per day late, up to 3 days. After that,
+  no credit is given unless prior arrangements were made.
+
+Attendance:
+  Regular attendance is expected. Students are responsible for
+  all material and announcements covered in class.
+
+Academic Integrity:
+  All submitted work must be your own. Collaboration is allowed
+  only on the final project and where explicitly stated.
+  Using AI tools (e.g., code assistants or chatbots) is allowed
+  only for brainstorming and debugging, and must be disclosed in
+  a short note with each submission. Copying solutions, from
+  AI tools or other people, without understanding or attribution
+  is a violation of the university honor code and may result in
+  failure of the course.
+
+Accessibility and Accommodations:
+  Students who need accommodations should contact the Office of
+  Disability Services and notify the instructor within the first
+  two weeks of the semester.
+
+Changes to Syllabus:
+  The instructor may adjust the schedule as needed. Any changes
+  will be announced in class and posted online.
+
+
+--------------------------------------------------------------
+7. FINAL PROJECT
+--------------------------------------------------------------
+Teams will design, build, and evaluate an AI system addressing a
+real-world problem of their choice (e.g., a game agent, image
+classifier, recommendation system, or chatbot). Deliverables:
+
+  - Proposal (due Week 6)
+  - Progress report (due Week 11)
+  - Final presentation and 6-8 page written report (Week 15)
+  - Well-documented code repository
+
+Projects are evaluated on technical soundness, creativity,
+clarity of communication, and discussion of ethical impact.
+
+==============================================================
+                       END OF SYLLABUS
+==============================================================

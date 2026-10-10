@@ -1,0 +1,17 @@
+# Sensitive — never commit API keys
+.env
+
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Microsoft Word lock/temp files
+~$*
+
+# OS files
+Thumbs.db
+.DS_Store
