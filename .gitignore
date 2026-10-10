@@ -1,6 +1,13 @@
 # Sensitive — never commit API keys
 .env
 
+# Personal lab work — not part of the repo
+Answers.docx
+CHANGES.md
+Part4_Document_QA.md
+Part5_Reflection.md
+part4_run_output.txt
+
 # Virtual environment
 venv/
 
